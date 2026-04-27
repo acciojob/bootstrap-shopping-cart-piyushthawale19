@@ -6,3 +6,11 @@
     background:#f7fbff;
     border-top:3px solid #5ea4f3;
 }
+
+.block-heading{
+    text-align: center !important;
+}
+
+.block-heading p{
+    text-align: center !important;
+}
