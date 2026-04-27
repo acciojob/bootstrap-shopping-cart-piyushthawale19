@@ -1,81 +1,144 @@
-<div class="container mt-5">
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
 
   <!-- Block Heading -->
   <div class="block-heading text-center mb-4">
     <h2>Shopping Cart</h2>
-    <p>The customer is very important, the customer will be followed by the customer.</p>
+    <p>
+      The customer is very important, the customer will be followed by the customer.
+    </p>
   </div>
 
-  <div class="row">
+  <div class="container">
+    <div class="row">
 
-    <!-- LEFT SIDE -->
-    <div class="col-lg-8">
+      <!-- LEFT SIDE -->
+      <div class="col-lg-8">
 
-      <!-- Product -->
-      <div class="product bg-white p-3 mb-3 border rounded">
-        <div class="row align-items-center">
+        <!-- Product 1 -->
+        <div class="product bg-white p-3 mb-3 border rounded">
+          <div class="row align-items-center">
 
-          <!-- Images (3 required) -->
-          <div class="col-auto">
-            <img src="https://via.placeholder.com/60" class="img-fluid mb-1">
-            <img src="https://via.placeholder.com/60" class="img-fluid mb-1">
-            <img src="https://via.placeholder.com/60" class="img-fluid">
+            <div class="col-auto">
+              <img src="https://via.placeholder.com/60" class="img-fluid mb-1">
+              <img src="https://via.placeholder.com/60" class="img-fluid mb-1">
+              <img src="https://via.placeholder.com/60" class="img-fluid">
+            </div>
+
+            <div class="col">
+              <h6 class="text-primary">I am very sorry</h6>
+              <p>Display: 5 inches<br>RAM: 4GB<br>Memory: 32GB</p>
+            </div>
+
+            <div class="col-auto">
+              <label>Quantity:</label>
+              <input type="text" class="form-control form-control-sm" style="width:60px;">
+            </div>
+
+            <div class="col-auto">
+              <h5>$120</h5>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product bg-white p-3 mb-3 border rounded">
+          <div class="row align-items-center">
+
+            <div class="col-auto">
+              <img src="https://via.placeholder.com/60" class="img-fluid mb-1">
+              <img src="https://via.placeholder.com/60" class="img-fluid mb-1">
+              <img src="https://via.placeholder.com/60" class="img-fluid">
+            </div>
+
+            <div class="col">
+              <h6 class="text-primary">I am very sorry</h6>
+              <p>Display: 5 inches<br>RAM: 4GB<br>Memory: 32GB</p>
+            </div>
+
+            <div class="col-auto">
+              <label>Quantity:</label>
+              <input type="text" class="form-control form-control-sm" style="width:60px;">
+            </div>
+
+            <div class="col-auto">
+              <h5>$120</h5>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product bg-white p-3 border rounded">
+          <div class="row align-items-center">
+
+            <div class="col-auto">
+              <img src="https://via.placeholder.com/60" class="img-fluid mb-1">
+              <img src="https://via.placeholder.com/60" class="img-fluid mb-1">
+              <img src="https://via.placeholder.com/60" class="img-fluid">
+            </div>
+
+            <div class="col">
+              <h6 class="text-primary">I am very sorry</h6>
+              <p>Display: 5 inches<br>RAM: 4GB<br>Memory: 32GB</p>
+            </div>
+
+            <div class="col-auto">
+              <label>Quantity:</label>
+              <input type="text" class="form-control form-control-sm" style="width:60px;">
+            </div>
+
+            <div class="col-auto">
+              <h5>$120</h5>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="col-lg-4">
+        <div class="summary p-4">
+
+          <h4 class="text-center mb-4">Summary</h4>
+
+          <div class="d-flex justify-content-between border-bottom pb-2 mb-2">
+            <span>Subtotal</span>
+            <span>$360</span>
           </div>
 
-          <!-- Text -->
-          <div class="col">
-            <h6 class="text-primary">I am very sorry</h6>
-            <p>Display: 5 inches<br>RAM: 4GB<br>Memory: 32GB</p>
+          <div class="d-flex justify-content-between border-bottom pb-2 mb-2">
+            <span>Discount</span>
+            <span>$0</span>
           </div>
 
-          <!-- Quantity -->
-          <div class="col-auto">
-            <label>Quantity:</label>
-            <input type="text" class="form-control form-control-sm" style="width:60px;">
+          <div class="d-flex justify-content-between border-bottom pb-2 mb-2">
+            <span>Shipping</span>
+            <span>$0</span>
           </div>
 
-          <!-- Price -->
-          <div class="col-auto">
-            <h5>$120</h5>
+          <div class="d-flex justify-content-between mb-3">
+            <strong>Total</strong>
+            <strong>$360</strong>
           </div>
+
+          <!-- IMPORTANT: anchor tag for test -->
+          <a href="#" class="btn btn-primary w-100">checkout</a>
 
         </div>
       </div>
 
-      <!-- Repeat product 2 & 3 same -->
-      
     </div>
-
-    <!-- RIGHT SIDE -->
-    <div class="col-lg-4">
-      <div class="summary p-4">
-
-        <h4 class="text-center mb-4">Summary</h4>
-
-        <div class="d-flex justify-content-between border-bottom pb-2 mb-2">
-          <span>Subtotal</span>
-          <span>$360</span>
-        </div>
-
-        <div class="d-flex justify-content-between border-bottom pb-2 mb-2">
-          <span>Discount</span>
-          <span>$0</span>
-        </div>
-
-        <div class="d-flex justify-content-between border-bottom pb-2 mb-2">
-          <span>Shipping</span>
-          <span>$0</span>
-        </div>
-
-        <div class="d-flex justify-content-between mb-3">
-          <strong>Total</strong>
-          <strong>$360</strong>
-        </div>
-
-        <button class="btn btn-primary w-100">checkout</button>
-
-      </div>
-    </div>
-
   </div>
-</div>
+
+</body>
+</html>

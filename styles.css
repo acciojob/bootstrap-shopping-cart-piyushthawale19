@@ -1,16 +1,19 @@
+/* Heading color */
 .block-heading h2{
     color:#3b99e0;
 }
 
-.summary{
-    background:#f7fbff;
-    border-top:3px solid #5ea4f3;
-}
-
+/* Force center (for Cypress) */
 .block-heading{
-    text-align: center !important;
+    text-align:center !important;
 }
 
 .block-heading p{
-    text-align: center !important;
+    text-align:center !important;
+}
+
+/* Summary styling */
+.summary{
+    background:#f7fbff;
+    border-top:3px solid #5ea4f3;
 }
